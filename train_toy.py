@@ -162,6 +162,7 @@ if __name__ == '__main__':
         total_time = count_total_time(model)
         nfe_forward = count_nfe(model)
 
+
         loss.backward()
         optimizer.step()
 
