@@ -163,6 +163,7 @@ if __name__ == '__main__':
         nfe_forward = count_nfe(model)
 
 
+
         loss.backward()
         optimizer.step()
 
